@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Cliente</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -126,6 +126,9 @@
      <attribute name="horizontalHeaderHighlightSections">
       <bool>true</bool>
      </attribute>
+     <attribute name="horizontalHeaderMinimumSectionSize">
+      <number>1</number>
+     </attribute>
      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
       <bool>false</bool>
      </attribute>
@@ -139,7 +142,7 @@
       <number>30</number>
      </attribute>
      <attribute name="verticalHeaderMinimumSectionSize">
-      <number>17</number>
+      <number>1</number>
      </attribute>
      <attribute name="verticalHeaderStretchLastSection">
       <bool>false</bool>
@@ -197,10 +200,6 @@
     </widget>
    </item>
   </layout>
-  <zorder>widget_propiedades</zorder>
-  <zorder>groupBox_conexion</zorder>
-  <zorder>groupBox_vibora</zorder>
-  <zorder>tableWidget</zorder>
  </widget>
  <resources/>
  <connections/>
